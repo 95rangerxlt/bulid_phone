@@ -1,6 +1,7 @@
 ### 1. export data to mongo
 
 mongoexport -d phone -c phone_record  < phone_record.json
+
 mongoexport -d phone -c zip_code < zip_code.json
 
 ### 2. run the following script 
